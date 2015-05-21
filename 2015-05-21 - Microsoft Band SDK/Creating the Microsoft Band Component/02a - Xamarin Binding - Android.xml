@@ -1,0 +1,31 @@
+<metadata>
+	
+  <remove-node path="/api/package[@name='com.microsoft.band.a']" />
+  <remove-node path="/api/package[@name='com.microsoft.band.internal']" />
+  <remove-node path="/api/package[@name='com.microsoft.band.internal.a']" />
+  <remove-node path="/api/package[@name='com.microsoft.band.internal.device.subscription']" />
+  
+  <remove-node path="/api/package[@name='com.microsoft.band']/class[@name='a']" />
+  <remove-node path="/api/package[@name='com.microsoft.band']/class[@name='q']" />
+
+  <attr path="/api/package[@name='com.microsoft.band.notifications']" name="managedName">Microsoft.Band.Notifications</attr>
+  <attr path="/api/package[@name='com.microsoft.band.personalization']" name="managedName">Microsoft.Band.Personalization</attr>
+  <attr path="/api/package[@name='com.microsoft.band.sensors']" name="managedName">Microsoft.Band.Sensors</attr>
+  <attr path="/api/package[@name='com.microsoft.band.tiles']" name="managedName">Microsoft.Band.Tiles</attr>
+  <attr path="/api/package[@name='com.microsoft.band.tiles.pages']" name="managedName">Microsoft.Band.Tiles.Pages</attr>
+  <attr path="/api/package[@name='com.microsoft.band.internal.device']" name="managedName">Microsoft.Band.Internal.Device</attr>
+  <attr path="/api/package[@name='com.microsoft.band']" name="managedName">Microsoft.Band</attr>
+  
+  <attr path="/api/package[@name='com.microsoft.band.sensors']/interface[@name='BandSensorManager']/method[@name='registerAccelerometerEventListener']" name="managedName">RegisterListener</attr>
+  <attr path="/api/package[@name='com.microsoft.band.sensors']/interface[@name='BandSensorManager']/method[@name='requestHeartRateConsent']" name="managedName">RequestHeartRateConsentAsync</attr>
+  <attr path="/api/package[@name='com.microsoft.band.sensors']/interface[@name='BandSensorManager']/method[@name='unregisterAccelerometerEventListener']" name="managedName">UnregisterListener</attr>
+  <attr path="/api/package[@name='com.microsoft.band.sensors']/interface[@name='BandSensorManager']/method[@name='unregisterUVEventListener']" name="managedName">UnregisterListener</attr>
+  
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='getFirmwareVersion']" name="managedName">GetFirmwareVersionAsync</attr>
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='getHardwareVersion']" name="managedName">GetHardwareVersionAsync</attr>
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='getFirmwareVersion']" name="propertyName" />
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='getHardwareVersion']" name="propertyName" />
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='connect']" name="managedName">ConnectAsync</attr>
+  <attr path="/api/package[@name='com.microsoft.band']/interface[@name='BandClient']/method[@name='disconnect']" name="managedName">DisconnectAsync</attr>
+  
+</metadata>
